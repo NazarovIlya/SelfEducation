@@ -4,9 +4,12 @@
 using NullObject_01;
 
 Console.Clear();
-Milk milk = new();
+Product milk = new Milk();
+Product coffee = new Coffee();
 
 Console.WriteLine(milk.KCalOfProduct());
 milk.eat();
+Console.WriteLine(coffee.KCalOfProduct());
+coffee.eat();
 Console.ReadKey();
 

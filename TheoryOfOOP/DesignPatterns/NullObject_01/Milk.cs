@@ -16,10 +16,5 @@ namespace NullObject_01
 		{
 			Console.WriteLine("Nice milk!");
 		}
-
-		public override string KCalOfProduct()
-		{
-			return base.KCalOfProduct();
-		}
 	}
 }
